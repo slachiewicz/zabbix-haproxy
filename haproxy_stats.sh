@@ -144,7 +144,7 @@ debug "_DEFAULT => $_DEFAULT"
 # check if requested stat is supported
 if [ -z "${_STAT}" ]
 then
-  echo "ERROR: $stat is unsupported"
+  echo "ERROR: [$stat] is unsupported"
   exit 127
 fi
 
